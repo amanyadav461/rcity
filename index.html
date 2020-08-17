@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rcity</title>
+	<link rel="stylesheet" type="text/css" href="/rcity/css/style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="homeimgcont">
+			<img src="/rcity/image/home.jpeg" class="homeimage">
+		</div>
+		<div class="formcont">
+			<form method="GET" action="/rcity/data.php">
+				<p>Welcome to the Mail Appointment booking system! Please enter your 10 digit mobile number to continue!!</p>
+				<input type="text" name="phone" placeholder="Please Enter Your Mobile Number"  pattern="\d*" minlength="10" maxlength="10" required><br>
+				<input type="submit" name="submit">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
